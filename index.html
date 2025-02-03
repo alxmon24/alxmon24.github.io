@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MedLab - Cuestionarios de Medicina</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>MedLab</h1>
+    <nav>
+      <select id="levelSelect">
+         <option value="">Seleccione un nivel</option>
+         <!-- Opciones para niveles 1 a 20 -->
+         <option value="1">Nivel 1</option>
+         <option value="2">Nivel 2</option>
+         <option value="3">Nivel 3</option>
+         <option value="4">Nivel 4</option>
+         <option value="5">Nivel 5</option>
+         <option value="6">Nivel 6</option>
+         <option value="7">Nivel 7</option>
+         <option value="8">Nivel 8</option>
+         <option value="9">Nivel 9</option>
+         <option value="10">Nivel 10</option>
+         <option value="11">Nivel 11</option>
+         <option value="12">Nivel 12</option>
+         <option value="13">Nivel 13</option>
+         <option value="14">Nivel 14</option>
+         <option value="15">Nivel 15</option>
+         <option value="16">Nivel 16</option>
+         <option value="17">Nivel 17</option>
+         <option value="18">Nivel 18</option>
+         <option value="19">Nivel 19</option>
+         <option value="20">Nivel 20</option>
+      </select>
+    </nav>
+  </header>
+
+  <main>
+    <div id="quizContainer">
+      <!-- Se cargarán las preguntas dinámicamente -->
+    </div>
+    <div id="resultContainer">
+      <!-- Se mostrará el resultado y, en caso de errores, las respuestas correctas -->
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
